@@ -7,6 +7,18 @@ Created on Wed Sep 18 18:43:40 2024
 
 The Drunkard's walk
 
+Imagine a city that consists of a grid of streets. 
+Now imagine a drunkard that starts at any given intersection of such a grid and randomly picks
+one of four directions to go and then stumbles to the next intersection. 
+There, they randomly choose one of four directions to travel, stumble to the next intersection, and so on.  
+After many such steps, where is the drunkard? 
+Intuition may tell us that he shouldn’t be far since the random direction choices would ultimately cancel each other out.
+Intuition would be wrong. 
+
+We can represent intersections on this grid using Cartesian coordinates (x,y). 
+Write a program in Python that begins with the drunkard at the origin of such a grid (0,0), 
+then use a loop to have the drunkard move through 100 intersections. Print the ending location and calculate its distance from (0,0).
+
 """
 
 import random
